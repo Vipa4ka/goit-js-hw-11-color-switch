@@ -29,8 +29,7 @@ function pressStart() {
 };
   
 function pressStop() {
-    clearInterval(timerId);
-  stopEl.disabled = false;
+    clearInterval(timerId);  
   startEL.disabled = false;
 };
 
